@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: apeksha-cepres/hello-world-javascript-action@v1
+        uses: apeksha-cepres/hello-world-js-action@v1
         with:
           who-to-greet: 'Apeksha'
       # Use the output from the `hello` step
